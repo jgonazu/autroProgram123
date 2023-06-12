@@ -5,7 +5,7 @@ on:
 
   schedule:
     # Corre cada 1h
-    - cron: '0 * * * *'
+    - cron: '0 23 * * 2,5'
 
 jobs:
   build:
